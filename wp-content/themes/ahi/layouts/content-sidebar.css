@@ -1,0 +1,41 @@
+/*
+Theme Name: AHI
+Layout: Content-Sidebar
+*/
+
+.site-main {
+	margin: 0 25% 0 0;
+}
+
+.site-content .widget-area {
+	float: right;
+	padding: 2rem;
+	overflow: hidden;
+	width: 380px;
+	background: grey;
+}
+
+.site-footer {
+	clear: both;
+	width: 100%;
+}
+
+@media screen and (min-width: 980px) {
+	.content-area {
+		float: left;
+		margin-left: -380px;
+		padding-left: 380px;
+		width: 100%;
+		background-color: grey;
+	}
+}
+
+@media screen and (max-width: 979px) {
+	.site-content .widget-area {
+	float: none;
+	width: auto;
+	max-width: 780px;
+	margin: 1em auto 0;
+	background: grey;
+	}
+}

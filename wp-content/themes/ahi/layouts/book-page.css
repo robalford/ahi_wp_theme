@@ -1,0 +1,84 @@
+/*
+Theme Name: AHI
+Layout: Book-Page
+*/
+
+
+.site-content {
+	background: #E8E8E8;
+	padding-bottom: 2rem;
+}
+
+@media screen and (min-width: 350px) {
+	.site-main {
+		width: 350px;
+		margin: 0 auto 0 auto;
+	}
+	
+}
+
+@media screen and (min-width: 700px) {
+	.site-main {
+		width: 700px;
+		margin: 0 auto 0 auto;
+	}
+	
+}
+
+@media screen and (min-width: 1050px) {
+	.site-main {
+		width: 1050px;
+		margin: 0 auto 0 auto;
+	}
+}
+
+@media screen and (min-width: 351px){
+	.single-post-thumbnail {
+		width: 350px;
+		height: 325px;
+		float: left;
+		margin-top: 2rem;
+		padding: 0 1rem 0 1rem;
+	}
+}
+
+/* reset containing div to auto for
+responsive image on smallest screens */
+@media screen and (max-width: 350px){
+	.site-main {
+		width: auto;
+	}
+	.single-post-thumbnail {
+		height: auto;
+		width: 100%;
+		padding: 1rem 1rem 0 1rem;
+		/*margin-top: 2rem;*/
+	}
+}
+/*
+.single-post-thumbnail {
+	width: 350px;
+	height: 325px;
+	float: left;
+	margin-top: 2rem;
+	padding: 0 1rem 0 1rem;
+}*/
+article {
+		display: none;
+		float: left;
+		font-size: 8px;
+		font-size: 0.8rem;
+		font-weight: 400;
+	}
+
+.entry-title {
+	margin-top: 25px;
+	margin-bottom: 0px;
+	font-weight: 100;
+}
+
+.entry-content {
+	margin-top: 0;
+	padding: 0;
+	/*background: white;*/
+}
