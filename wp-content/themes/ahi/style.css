@@ -1148,7 +1148,7 @@ object {
 		width: 1025px;
 		margin: 0 auto 0 auto;
 	}
-	
+
 	article {
 		width: 350px;
 	}
@@ -1160,6 +1160,16 @@ page and img stays at max-width 100% (confirm) */
 @media screen and (max-width: 1081px) {
 	article {
 		width: 40%;
+	}
+	.single-post-thumbnail {
+		width: 60%; 	
+	}
+}
+
+/* add padding to image for medium screens */
+@media screen and (min-width: 901px){
+	article {
+		padding: 0 2rem 0 0;
 	}
 }
 

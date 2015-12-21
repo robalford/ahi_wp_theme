@@ -7,9 +7,6 @@ Layout: About-Page
 
 /* add padding to image for medium screens */
 @media screen and (min-width: 901px){
-	article {
-		padding: 0 2rem 0 0;
-	}
 	.single-post-thumbnail {
 		float: left;
 		padding: 2rem;
