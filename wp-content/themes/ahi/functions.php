@@ -117,36 +117,27 @@ add_action( 'widgets_init', 'ahi_widgets_init' );
  */
 function ahi_scripts() {
 	wp_enqueue_style( 'ahi-style', get_stylesheet_uri() );
-	
+
+	// enqueue styles for AHI custom page templates
 	if (is_page_template('page-templates/landing-page.php')) {
 		wp_enqueue_style( 'ahi-landing-page', get_template_directory_uri() . '/layouts/landing-page.css' );
 	} else if (is_page_template('page-templates/about-page.php')) {
 		wp_enqueue_style( 'ahi-about-page', get_template_directory_uri() . '/layouts/about-page.css' );
 	} else if (is_page_template('page-templates/portfolio-page.php')) {
 		wp_enqueue_style( 'ahi-portfolio-page', get_template_directory_uri() . '/layouts/portfolio-page.css' );
-	} else if (is_page_template('page-templates/press-page.php')) {
-		wp_enqueue_style( 'ahi-press-page', get_template_directory_uri() . '/layouts/press-page.css' );
-	} else if (is_page_template('page-templates/recognition-page.php')) {
-		wp_enqueue_style( 'ahi-recognition-page', get_template_directory_uri() . '/layouts/recognition-page.css' );
-	} else if (is_page_template('page-templates/full-portfolio-page.php')) {
-		wp_enqueue_style( 'ahi-full-portfolio-page', get_template_directory_uri() . '/layouts/full-portfolio-page.css' );
-	} else if (is_page_template('page-templates/all-about-page.php')) {
-		wp_enqueue_style( 'ahi-all-about-page', get_template_directory_uri() . '/layouts/all-about-page.css' );
-	} else if (is_page_template('page-templates/gallery-page.php')) {
-		wp_enqueue_style( 'ahi-gallery-page', get_template_directory_uri() . '/layouts/gallery-page.css' );
 	} else if (is_page_template('page-templates/magazine-page.php')) {
 		wp_enqueue_style( 'ahi-magazine-page', get_template_directory_uri() . '/layouts/magazine-page.css' );
 	} else if (is_page_template('page-templates/book-page.php')) {
 		wp_enqueue_style( 'ahi-book-page', get_template_directory_uri() . '/layouts/book-page.css' );
 	}
-	else {
-		wp_enqueue_style( 'ahi-content-sidebar', get_template_directory_uri() . '/layouts/content-sidebar.css' );
-	}
-	
+	// else {
+	// 	wp_enqueue_style( 'ahi-content-sidebar', get_template_directory_uri() . '/layouts/content-sidebar.css' );
+	// }
+
 	wp_enqueue_style( 'ahi-Google-Web-Fonts', 'http://fonts.googleapis.com/css?family=Muli:300,400' );
-	
+
 	wp_enqueue_style( 'ahi-fontawesome', 'https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css' );
-	
+
 	wp_enqueue_script( 'ahi-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20120206', true );
 
 	wp_enqueue_script( 'ahi-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20130115', true );
