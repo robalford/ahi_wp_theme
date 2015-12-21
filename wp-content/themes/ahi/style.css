@@ -499,20 +499,21 @@ textarea {
 # Navigation
 --------------------------------------------------------------*/
 /*--------------------------------------------------------------
-## Links
+## Links (Customized for AHI theme)
 --------------------------------------------------------------*/
 a {
-	color: royalblue;
+	color: black;
+	text-decoration: none;
 }
 
 a:visited {
-	color: purple;
+	color: black;
 }
 
 a:hover,
 a:focus,
 a:active {
-	color: midnightblue;
+	color: #CC2C2C;
 }
 
 a:focus {
