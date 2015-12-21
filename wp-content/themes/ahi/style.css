@@ -1138,6 +1138,8 @@ object {
 	background: #E8E8E8;
 }
 
+/* reverse order for mobile first */
+
 /*center content on larger screens*/
 @media screen and (min-width: 1082px) {
 	/* set fixed width for containing div so
@@ -1151,6 +1153,7 @@ object {
 		width: 350px;
 	}
 }
+
 /* responsive image on medium screens by
 setting containing div to percentage of
 page and img stays at max-width 100% (confirm) */
@@ -1158,10 +1161,10 @@ page and img stays at max-width 100% (confirm) */
 	article {
 		width: 40%;
 	}
-	.single-post-thumbnail {
-		width: 60%; 	
-	}
 }
+
+
+
 
 /*--------------------------------------------------------------
 ## Footer

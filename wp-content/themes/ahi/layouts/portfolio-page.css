@@ -3,31 +3,7 @@ Theme Name: AHI
 Layout: Portfolio-Page
 */
 
-/*center content on larger screens*/
-/*@media screen and (min-width: 1082px) {
-	 set fixed width for containing div so
-	photo and content center together 
-	.site-main {
-		width: 1025px;
-		margin: 0 auto 0 auto;
-	}
-	
-	article {
-		width: 350px;
-	}
-}*/
-/* responsive image on medium screens by
-setting containing div to percentage of
-page and img stays at max-width 100% (confirm) */
-/*@media screen and (max-width: 1081px) {
-	article {
-		width: 40%;
-	}
-	.single-post-thumbnail {
-		width: 60%; 	
-	}
-}*/
-/* add padding for medium screens */
+/* add padding to image for medium screens */
 @media screen and (min-width: 901px){
 	article {
 		padding: 0 2rem 0 0;
@@ -37,6 +13,7 @@ page and img stays at max-width 100% (confirm) */
 		padding: 2rem 2rem 0 2rem;
 	}
 }
+
 /* center all content on small screens */
 @media screen and (max-width: 900px) {
 	article {

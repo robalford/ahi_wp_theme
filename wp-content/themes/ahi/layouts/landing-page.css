@@ -3,6 +3,9 @@ Theme Name: AHI
 Layout: Landing-Page
 */
 
+/* Set this to auto to override global media queries in style.css and keep photo
+full width on all screens. */
+
 .site-main {
         width: auto;
     }
