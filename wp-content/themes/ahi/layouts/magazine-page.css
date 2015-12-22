@@ -3,7 +3,6 @@ Theme Name: AHI
 Layout: Magazine-Page
 */
 
-
 .site-content {
 	padding-bottom: 2rem;
 }
@@ -13,7 +12,6 @@ Layout: Magazine-Page
 		width: 350px;
 		margin: 0 auto 0 auto;
 	}
-	
 }
 
 @media screen and (min-width: 700px) {
@@ -21,7 +19,6 @@ Layout: Magazine-Page
 		width: 700px;
 		margin: 0 auto 0 auto;
 	}
-	
 }
 
 @media screen and (min-width: 1050px) {
@@ -55,23 +52,7 @@ responsive image on smallest screens */
 	}
 }
 
-
 article {
 		display: none;
-		float: left;
-		font-size: 8px;
-		font-size: 0.8rem;
-		font-weight: 400;
 	}
 
-.entry-title {
-	margin-top: 25px;
-	margin-bottom: 0px;
-	font-weight: 100;
-}
-
-.entry-content {
-	margin-top: 0;
-	padding: 0;
-	/*background: white;*/
-}

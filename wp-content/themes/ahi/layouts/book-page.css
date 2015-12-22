@@ -64,20 +64,5 @@ responsive image on smallest screens */
 }*/
 article {
 		display: none;
-		float: left;
-		font-size: 8px;
-		font-size: 0.8rem;
-		font-weight: 400;
 	}
 
-.entry-title {
-	margin-top: 25px;
-	margin-bottom: 0px;
-	font-weight: 100;
-}
-
-.entry-content {
-	margin-top: 0;
-	padding: 0;
-	/*background: white;*/
-}
