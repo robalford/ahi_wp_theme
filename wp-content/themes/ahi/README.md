@@ -29,7 +29,7 @@ Global customizations:
 
 styles.css: Made customizations throughout the style sheet, documented by comments in the section headers. Most customizations were in the menu section. Added custom header and footer styles at the end of the file.
 
-Functions.php: Made some customizations to functions.php. Followed lynda.com tut for these, including custom fonts and icons. Enqueued custom layouts for each of your custom templates. Added post thumbnail support and sizes for different pages. These can now be set via the admin interface. Commented out unused boilerplate code (still need to do this.)
+Functions.php: Made some customizations to functions.php. Followed lynda.com tut for these, including custom fonts and icons. Enqueued custom layouts for each of your custom templates. Added post thumbnail support and sizes for different pages. These can now be set via the admin interface.
 
 Menu: Followed lynda tut and some of your own research to create custom mobile friendly menu. Main categories are placeholders, empty pages on the admin, that define the structure but dont function as actual pages. 
 
