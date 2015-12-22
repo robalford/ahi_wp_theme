@@ -1,19 +1,21 @@
 /*
 Theme Name: AHI
-Layout: Book-Page
+Layout: Recognition-Page
 */
-
 
 .site-content {
 	padding-bottom: 2rem;
 }
+
+article {
+		display: none;
+	}
 
 @media screen and (min-width: 350px) {
 	.site-main {
 		width: 350px;
 		margin: 0 auto 0 auto;
 	}
-	
 }
 
 @media screen and (min-width: 700px) {
@@ -21,7 +23,6 @@ Layout: Book-Page
 		width: 700px;
 		margin: 0 auto 0 auto;
 	}
-	
 }
 
 @media screen and (min-width: 1050px) {
@@ -33,11 +34,18 @@ Layout: Book-Page
 
 @media screen and (min-width: 351px){
 	.single-post-thumbnail {
-		width: 350px;
-		height: 325px;
 		float: left;
 		margin-top: 2rem;
 		padding: 0 1rem 0 1rem;
+	}
+	/* added these classes to book-page and magazine-page templates for styling here */
+	.magazine-thumbnail {
+		width: 350px;
+		height: 415px;
+	}
+	.book-thumbnail {
+		width: 350px;
+		height: 325px;
 	}
 }
 
@@ -51,18 +59,7 @@ responsive image on smallest screens */
 		height: auto;
 		width: 100%;
 		padding: 1rem 1rem 0 1rem;
-		/*margin-top: 2rem;*/
 	}
 }
-/*
-.single-post-thumbnail {
-	width: 350px;
-	height: 325px;
-	float: left;
-	margin-top: 2rem;
-	padding: 0 1rem 0 1rem;
-}*/
-article {
-		display: none;
-	}
+
 

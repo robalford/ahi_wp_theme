@@ -126,9 +126,9 @@ function ahi_scripts() {
 	} else if (is_page_template('page-templates/portfolio-page.php')) {
 		wp_enqueue_style( 'ahi-portfolio-page', get_template_directory_uri() . '/layouts/portfolio-page.css' );
 	} else if (is_page_template('page-templates/magazine-page.php')) {
-		wp_enqueue_style( 'ahi-magazine-page', get_template_directory_uri() . '/layouts/magazine-page.css' );
+		wp_enqueue_style( 'ahi-magazine-page', get_template_directory_uri() . '/layouts/recognition-page.css' );
 	} else if (is_page_template('page-templates/book-page.php')) {
-		wp_enqueue_style( 'ahi-book-page', get_template_directory_uri() . '/layouts/book-page.css' );
+		wp_enqueue_style( 'ahi-book-page', get_template_directory_uri() . '/layouts/recognition-page.css' );
 	}
 	// else {
 	// 	wp_enqueue_style( 'ahi-content-sidebar', get_template_directory_uri() . '/layouts/content-sidebar.css' );

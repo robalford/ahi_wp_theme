@@ -23,7 +23,7 @@ $press_pages = new WP_Query( 'post_type=page&meta_value=Magazine&order=DESC&orde
 			
 			<?php
 				if (has_post_thumbnail()) {
-					echo '<div class="single-post-thumbnail">';
+					echo '<div class="single-post-thumbnail magazine-thumbnail">'; // added class for custom styling in recognition.css
 					echo '<a href=';
 					echo get_post_meta( get_the_ID(), 'Press URL', true );
 					echo ' target="_blank">';
