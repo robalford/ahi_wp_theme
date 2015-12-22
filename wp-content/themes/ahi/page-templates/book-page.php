@@ -16,11 +16,9 @@ $press_pages = new WP_Query( 'post_type=page&meta_value=Book&order=DESC&orderby=
 
 <div id="primary" class="content-area">
 	<main id="main" class="site-main" role="main">
-		
+
 		<?php while ( $press_pages->have_posts() ) : $press_pages->the_post(); ?>
-			
-			<?php get_template_part( 'template-parts/content', 'page' ); ?>
-			
+
 			<?php
 				if (has_post_thumbnail()) {
 					echo '<div class="single-post-thumbnail book-thumbnail">'; // added class for custom styling in recognition.css
@@ -32,11 +30,11 @@ $press_pages = new WP_Query( 'post_type=page&meta_value=Book&order=DESC&orderby=
 					echo '</div>';
 				}
 			?>
-			
+
 		<?php endwhile; // End of the loop. ?>
-		
+
 	</main><!-- #main -->
-	
+
 </div><!-- #primary -->
 
 <?php get_footer(); ?>

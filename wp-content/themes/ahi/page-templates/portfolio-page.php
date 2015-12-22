@@ -14,24 +14,25 @@ get_header(); ?>
 					echo '</div>';
 				}
 			?>
-			
+
 			<?php while ( have_posts() ) : the_post(); ?>
-				
+
 				<?php get_template_part( 'template-parts/content', 'page' ); ?>
-				
+
 			<?php endwhile; // End of the loop. ?>
-			
-			<?php // Include custom shortcode for Photo Gallery Plugin. Create galleries and generate shortcode via Plugin admin ?>
+
+			<?php  ?>
 			<?php
+				// Include custom shortcode for Photo Gallery Plugin.
+				// Create galleries and generate shortcode via Photo Gallery Plugin admin.
 				// Add gallery shortcode as custom field via the Page admin section
 				// retrieve shortcode as page metadata and store in $gallery variable
 				$gallery = get_post_meta( get_the_ID(), 'Gallery Shortcode', true );
 				echo do_shortcode($gallery);
 			?>
-			
-			
+
 		</main><!-- #main -->
-		
+
 	</div><!-- #primary -->
 
 <?php get_footer(); ?>
