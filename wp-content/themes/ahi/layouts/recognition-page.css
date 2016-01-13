@@ -13,22 +13,22 @@ article {
 
 @media screen and (min-width: 350px) {
 	.site-main {
-		width: 350px;
 		margin: 0 auto 0 auto;
+		width: 350px;
 	}
 }
 
 @media screen and (min-width: 700px) {
 	.site-main {
-		width: 700px;
 		margin: 0 auto 0 auto;
+		width: 700px;
 	}
 }
 
 @media screen and (min-width: 1050px) {
 	.site-main {
-		width: 1050px;
 		margin: 0 auto 0 auto;
+		width: 1050px;
 	}
 }
 
@@ -40,12 +40,12 @@ article {
 	}
 	/* added these classes to book-page and magazine-page templates for styling here */
 	.magazine-thumbnail {
-		width: 350px;
 		height: 415px;
+		width: 350px;
 	}
 	.book-thumbnail {
-		width: 350px;
 		height: 325px;
+		width: 350px;
 	}
 }
 
@@ -57,8 +57,8 @@ responsive image on smallest screens */
 	}
 	.single-post-thumbnail {
 		height: auto;
-		width: 100%;
 		padding: 1rem 1rem 0 1rem;
+		width: 100%;
 	}
 }
 

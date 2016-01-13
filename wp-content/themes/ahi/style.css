@@ -1030,12 +1030,12 @@ object {
 
 @media screen and (max-width: 750px){
 	.site-title {
-		padding-left: 15px;
-		padding-bottom: 0;*/
+		color: black;
 		font-size: 1.6rem;
 		font-weight: 100;
-		color: black;
 		margin: 10px auto 10px auto;
+		padding-bottom: 0;
+		padding-left: 15px;
 	}
 
 	/* styles for dropdown menu on mobile */
@@ -1044,18 +1044,18 @@ object {
 	}
 
 	.main-navigation div {
-		margin-top: 4rem;
 		background: white;
 		font-weight: 200;
+		margin-top: 4rem;
 	}
 
 	.menu a {
-		color: white;
 		background: black;
-		text-decoration: none;
+		color: white;
 		font-size: 0.9rem;
-		padding: 10px 10px 10px 10px;
 		margin-top: -5px;
+		padding: 10px 10px 10px 10px;
+		text-decoration: none;
 		z-index: 99999;
 	}
 
@@ -1066,26 +1066,26 @@ object {
 
 @media screen and (min-width: 751px){
 	.site-title {
-		float: left;
-		padding-left: 15px;;
-		padding-bottom: 0;
-		font-weight: 100;
 		color: black;
-		margin-top: -25px;
+		float: left;
+		font-weight: 100;
 		margin-bottom: 5px;
+		margin-top: -25px;
+		padding-bottom: 0;
+		padding-left: 15px;
 	}
 
 	.main-navigation div {
-		padding-top: 5px;
 		float: right;
 		font-weight: 300;
+		padding-top: 5px;
 	}
 
 	.menu a {
 		color: black;
-		text-decoration: none;
 		font-size: 1.0rem;
 		padding: 0 10px 0 10px;
+		text-decoration: none;
 	}
 }
 
@@ -1118,8 +1118,8 @@ article {
 	}
 
 .entry-title {
-	margin-top: 25px;
 	margin-bottom: 0px;
+	margin-top: 25px;
 	font-weight: 100;
 }
 
@@ -1135,8 +1135,8 @@ article {
 	/* set fixed width for containing div so
 	photo and content center together */
 	.site-main {
-		width: 1025px;
 		margin: 0 auto 0 auto;
+		width: 1025px;
 	}
 
 	article {
@@ -1166,18 +1166,18 @@ page and img stays at max-width 100% (confirm) */
 /* center all content on small screens */
 @media screen and (max-width: 900px) {
 	article {
-		width: 100%;
 		padding: 0 2rem 0 2rem;
+		width: 100%;
 	}
 	.single-post-thumbnail {
 		height: auto;
-		width: 100%;
 		padding: 2rem 0 0 0;
+		width: 100%;
 	}
 	/* fixed width container to center content */
 	.site-main {
-		width: 560px;
 		margin: 0 auto 0 auto;
+		width: 560px;
 	}
 }
 
@@ -1200,10 +1200,10 @@ responsive image on smallest screens */
 --------------------------------------------------------------*/
 
 .site-footer {
-	padding: 0 2rem 0 2rem;
 	font-size: 10px;
 	font-size: 1.0rem;
 	font-weight: 200;
+	padding: 0 2rem 0 2rem;
 	text-align: center;
 }
 
