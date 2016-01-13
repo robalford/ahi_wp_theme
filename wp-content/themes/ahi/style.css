@@ -538,17 +538,20 @@ a:active {
 }
 
 .main-navigation.toggled {
-	position: relative;
 	left: 0;
+	position: relative;
 	z-index: 99999;
 }
 
 .main-navigation ul {
+	background: white;
 	display: none;
 	list-style: none;
 	padding-left: 0;
-	background: white;
 }
+
+/* Commented out Underscores boilerplate code where not needed throughout
+menu styles */
 
 /*.main-navigation li {
 	float: left;
@@ -624,16 +627,16 @@ a:active {
 /* Small menu. */
 .menu-toggle,
 .main-navigation.toggled ul {
-	/*display: none;*/
-	display: block;
-	float: right;
-	/*margin-bottom: -40px;*/
-	text-decoration: none;
 	background-color: white;
 	border-radius: 0;
 	border: none;
-	/*height: 2.0rem;*/
+	/*display: none;*/
+	display: block;
+	float: right;
 	font-size: 1.5rem;
+	/*height: 2.0rem;*/
+	/*margin-bottom: -40px;*/
+	text-decoration: none;
 }
 
 .main-navigation.toggled ul {
@@ -682,14 +685,14 @@ a:active {
 	}
 
 	.main-navigation ul ul {
-		box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
-		float: left;
-		position: absolute;
-		top: 1.2em;
-		left: -999em;
-		z-index: 99999;
 		background: white;
 		/*border-bottom: none;*/
+		box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+		float: left;
+		left: -999em;
+		position: absolute;
+		top: 1.2em;
+		z-index: 99999;
 	}
 
 	.main-navigation ul ul ul {
