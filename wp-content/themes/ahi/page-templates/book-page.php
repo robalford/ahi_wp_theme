@@ -18,18 +18,15 @@ $press_pages = new WP_Query( 'post_type=page&meta_value=Book&order=DESC&orderby=
 	<main id="main" class="site-main" role="main">
 
 		<?php while ( $press_pages->have_posts() ) : $press_pages->the_post(); ?>
-
-			<?php
-				if (has_post_thumbnail()) {
-					echo '<div class="single-post-thumbnail book-thumbnail">'; // added class for custom styling in recognition.css
-					echo '<a href=';
-					echo get_post_meta( get_the_ID(), 'Press URL', true );
-					echo ' target="_blank">';
-					echo the_post_thumbnail('book-page');
-					echo '</a>';
-					echo '</div>';
-				}
-			?>
+			<div class="single-post-thumbnail book-thumbnail">
+				<a href="<?php echo get_post_meta( get_the_ID(), 'Press URL', true ); ?>" target="_blank">
+					<?php
+						if (has_post_thumbnail()) {
+							echo the_post_thumbnail('book-page');
+						}
+					?>
+				</a>
+			</div>
 
 		<?php endwhile; // End of the loop. ?>
 
