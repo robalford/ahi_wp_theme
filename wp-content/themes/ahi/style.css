@@ -272,7 +272,7 @@ input,
 select,
 textarea {
 	color: #404040;
-	font-family: 'Muli', sans-serif; 
+	font-family: 'Muli', sans-serif;
 	font-size: 12px;
 	font-size: 1.2rem;
 	line-height: 1.5;
@@ -653,7 +653,7 @@ menu styles */
 
 .main-navigation ul {
 		display: none;
-	}
+}
 
 @media screen and (min-width: 751px) {
 	.menu-toggle {

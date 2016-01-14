@@ -20,7 +20,6 @@ get_header(); ?>
 
 			<?php endwhile; // End of the loop. ?>
 
-			<?php  ?>
 			<?php
 				// Include custom shortcode for Photo Gallery Plugin.
 				// Create galleries and generate shortcode via Photo Gallery Plugin admin.
