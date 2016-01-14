@@ -119,8 +119,8 @@ function ahi_scripts() {
 	wp_enqueue_style( 'ahi-style', get_stylesheet_uri() );
 
 	// enqueue styles for AHI custom page templates
-	if (is_page_template('page-templates/landing-page.php')) {
-		wp_enqueue_style( 'ahi-landing-page', get_template_directory_uri() . '/layouts/landing-page.css' );
+	if ( is_front_page() ) {
+		wp_enqueue_style( 'ahi-front-page', get_template_directory_uri() . '/layouts/front-page.css' );
 	} else if (is_page_template('page-templates/about-page.php')) {
 		wp_enqueue_style( 'ahi-about-page', get_template_directory_uri() . '/layouts/about-page.css' );
 	} else if (is_page_template('page-templates/portfolio-page.php')) {
